@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 
 translator = Translator()
 
-bot = Bot(token="6366149003:AAHnGW2fJZ1r2PZWV0zC9deThnXA4Nhlqx8")
+bot = Bot(token="6366149003:AAHWb_vhPGYyoDRTWbZh9GrXL69h5OiaTos")
 dp = Dispatcher(bot)
 
 con = sql.connect("database.db")
